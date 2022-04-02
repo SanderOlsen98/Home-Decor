@@ -1,19 +1,26 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Josefin+Sans:ital,wght@0,400;1,300&family=Merriweather:ital@0;1&family=Playfair+Display:ital,wght@1,500&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  font-family: "Roboto", sans-serif;
+h1,
+h2 {
+  font-family: "Dancing Script", cursive;
 }
+
+h4 {
+  font-family: "Merriweather", serif;
+}
+
 a {
   text-decoration: none;
   color: #555;
 }
 p {
-  color: #555;
+  color: rgb(51, 50, 50) !important;
+  font-family: "Playfair Display", serif;
 }
 .header {
   background-image: url("images/living-room.jpg");
@@ -105,6 +112,10 @@ nav ul li {
 .col-3 img {
   width: 100%;
 }
+
+.col-3 p {
+  font-size: 15px !important;
+}
 /*-------featured product--------------*/
 
 .title {
@@ -113,6 +124,7 @@ nav ul li {
   position: relative;
   line-height: 60px;
   color: #555;
+  margin-top: 50px;
 }
 .title::after {
   content: "";
@@ -254,6 +266,14 @@ small {
 .footer-col4 {
   flex-basis: 12%;
   text-align: center;
+}
+
+.footer-col2 p {
+  color: #ffffff !important;
+}
+
+.footer-col1 p {
+  color: #ffffff !important;
 }
 
 .app-logo {
